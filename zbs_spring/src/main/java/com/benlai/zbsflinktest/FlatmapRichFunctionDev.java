@@ -35,5 +35,6 @@ public class FlatmapRichFunctionDev extends RichFlatMapFunction<Tuple2<String, I
 
         }
         state.update(stringIntegerTuple2.f1);
+        System.out.println("asdasdsad");
     }
 }
