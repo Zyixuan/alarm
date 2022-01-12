@@ -62,7 +62,7 @@ public class window_time_test {
 //            }
 //        })
         tuple2SingleOutputStreamOperator.print();
-        System.out.println("zbs");
+        System.out.println("test");
         env.execute();
 
     }
